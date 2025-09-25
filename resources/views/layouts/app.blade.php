@@ -8,6 +8,12 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    
+    @include('utils.header')
+
+    <main class="min-h-screen max-w-screen">
+        @yield('content')
+    </main>
+
+    @include('utils.footer')
 </body>
 </html>
