@@ -1,7 +1,7 @@
 <nav class="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md border-b border-white/20">
     <div class="container mx-auto px-6 py-4">
         <div class="flex justify-between items-center">
-            <div class="text-white font-bold text-xl">✦</div>
+            <div class="text-white font-bold text-xl"><img src="{{ asset('ikonn.png') }}" alt=""></div>
             <div class="hidden md:flex space-x-8 text-white">
                 <a href="#" class="hover:text-blue-200 transition-colors">Home</a>
                 <a href="#" class="hover:text-blue-200 transition-colors">Features</a>
