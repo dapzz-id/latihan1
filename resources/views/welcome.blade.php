@@ -610,7 +610,7 @@
                 document.querySelectorAll('.faq-item').forEach(item => {
                     if (item !== faqItem) {
                         item.classList.remove('active');
-                    }
+                  z  }
                 });
             });
         });
