@@ -1,4 +1,4 @@
-<footer class="bg-white/10 py-12 px-6 mt-16">
+<footer class="bg-[#143072]/20 py-12 px-6 mt-16">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-8">
     <!-- Left Content -->
     <div class="text-left">
