@@ -17,14 +17,22 @@
       <li><a href="#gallery" class="text-white no-underline transition hover:text-white/80">Gallery</a></li>
       <li><a href="#about" class="text-white no-underline transition hover:text-white/80">About</a></li>
       <li><a href="#contact" class="text-white no-underline transition hover:text-white/80">Contact</a></li>
+
+      <!-- Spark In (Mobile Only) -->
+      <li class="block sm:hidden mt-4">
+        <button class="w-full bg-white/20 px-5 py-2 rounded-full border border-white text-white cursor-pointer transition hover:bg-white hover:text-purple-700" onclick="window.location.href='/login'">
+          Spark In
+        </button>
+      </li>
     </ul>
   </nav>
 
-  <!-- Button -->
+  <!-- Spark In (Desktop Only) -->
   <button class="hidden sm:block bg-white/20 px-5 py-2 rounded-full border border-white text-white cursor-pointer transition hover:bg-white hover:text-purple-700" onclick="window.location.href='/login'">
     Spark In
   </button>
 </header>
+
 
 <script>
   const menuBtn = document.getElementById('menu-btn');
