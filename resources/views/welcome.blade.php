@@ -516,47 +516,6 @@
             </div>
         </section>
 
-        <!-- FAQ Section -->
-        <section class="faq-section">
-            <h2>FAQ</h2>
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Apakah platform ini bisa diakses di mobile dan desktop?</span>
-                    <span class="faq-arrow">▼</span>
-                </div>
-                <div class="faq-answer">
-                    Ya, platform kami dapat diakses melalui berbagai perangkat termasuk mobile, tablet, dan desktop dengan tampilan yang responsif.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Apakah platform ini cocok buat tech enthusiast saja?</span>
-                    <span class="faq-arrow">▼</span>
-                </div>
-                <div class="faq-answer">
-                    Tidak, platform kami dirancang untuk semua kalangan, baik pemula maupun profesional di berbagai bidang.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Apa yang ditampilkan dalam fitur Exhibition?</span>
-                    <span class="faq-arrow">▼</span>
-                </div>
-                <div class="faq-answer">
-                    Exhibition menampilkan karya-karya digital terpilih dari pengguna kami yang telah dikurasi dengan baik.
-                </div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Apakah fitur ini pengguna dipindah ke halaman redirect?</span>
-                    <span class="faq-arrow">▼</span>
-                </div>
-                <div class="faq-answer">
-                    Sebagian besar fitur dapat diakses langsung di platform, namun beberapa konten khusus mungkin memerlukan redirect ke halaman khusus.
-                </div>
-            </div>
-        </section>
-
         <!-- Running Text -->
         <div class="running-text-container">
             <div class="running-text running-text-1">
