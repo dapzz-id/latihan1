@@ -20,30 +20,62 @@
     </div>
 
     <!-- Carousel Wrapper -->
-    <div class="features-carousel bg-white/10 border-2 border-white rounded-xl p-4 sm:p-6 lg:p-8 overflow-hidden relative w-full">
-        <!-- Carousel Container -->
-        <div class="carousel-container flex gap-4 sm:gap-6 lg:gap-8 transition-transform duration-500">
-            
-            <!-- Feature Card -->
-            <div class="feature-card w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 sm:h-72 lg:h-80 rounded-xl flex items-center justify-center cursor-pointer transition-all hover:scale-105 flex-shrink-0 overflow-hidden">
-                <img src="{{ asset('card_dash.png') }}" alt="Feature 1" class="w-full h-full object-contain">
-            </div>
+  <div class="mx-4 sm:mx-6 md:mx-10">
+        <div class="features-carousel bg-white/10 border border-white/20 sm:border-2 rounded-lg sm:rounded-xl p-4 sm:p-6 md:p-8 overflow-hidden relative w-full">
+            <!-- Navigation Buttons -->
+            <!-- Prev Button -->
+            <button class="carousel-prev absolute top-1/2 -translate-y-1/2 left-2 sm:left-3 w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-full text-white flex items-center justify-center text-sm sm:text-xl z-10 hover:bg-white/30 transition-colors duration-200">
+                <span class="hidden sm:inline">❮</span>
+                <svg class="w-4 h-4 sm:hidden" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+            </button>
 
-            <div class="feature-card w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 sm:h-72 lg:h-80 rounded-xl flex items-center justify-center cursor-pointer transition-all hover:scale-105 flex-shrink-0 overflow-hidden">
-                <img src="{{ asset('card_detail.png') }}" alt="Feature 2" class="w-full h-full object-contain">
-            </div>
+            <!-- Next Button -->
+            <button class="carousel-next absolute top-1/2 -translate-y-1/2 right-2 sm:right-3 w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-full text-white flex items-center justify-center text-sm sm:text-xl z-10 hover:bg-white/30 transition-colors duration-200">
+                <span class="hidden sm:inline">❯</span>
+                <svg class="w-4 h-4 sm:hidden" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                </svg>
+            </button>
 
-            <div class="feature-card w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 sm:h-72 lg:h-80 rounded-xl flex items-center justify-center cursor-pointer transition-all hover:scale-105 flex-shrink-0 overflow-hidden">
-                <img src="{{ asset('card_profil.png') }}" alt="Feature 3" class="w-full h-full object-contain">
-            </div>
+            <!-- Carousel Container -->
+            <div class="carousel-container flex gap-3 sm:gap-4 md:gap-6 lg:gap-8 transition-transform duration-500 ease-in-out">
+                <!-- Feature Cards -->
+                <div class="feature-card flex-shrink-0 w-full xs:w-80 sm:w-[calc(50%-8px)] md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(33.333%-21px)] 2xl:w-[calc(25%-18px)] h-60 sm:h-72 md:h-80 lg:h-80 xl:h-84 rounded-lg sm:rounded-xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-white/15 overflow-hidden group">
+                    <div class="w-3/4 h-3/4 sm:w-full sm:h-full p-2 sm:p-3 md:p-4">
+                        <img src="{{ asset('card_dash.png') }}" alt="Dashboard Feature" 
+                            class="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
 
-            <div class="feature-card w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 sm:h-72 lg:h-80 rounded-xl flex items-center justify-center cursor-pointer transition-all hover:scale-105 flex-shrink-0 overflow-hidden">
-                <img src="{{ asset('card_submit.png') }}" alt="Feature 4" class="w-full h-full object-contain">
-            </div>
+                <div class="feature-card flex-shrink-0 w-full xs:w-80 sm:w-[calc(50%-8px)] md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(33.333%-21px)] 2xl:w-[calc(25%-18px)] h-60 sm:h-72 md:h-80 lg:h-80 xl:h-84 rounded-lg sm:rounded-xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-white/15 overflow-hidden group">
+                    <div class="w-3/4 h-3/4 sm:w-full sm:h-full p-2 sm:p-3 md:p-4">
+                        <img src="{{ asset('card_detail.png') }}" alt="Detail Feature" 
+                            class="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
 
-            <div class="feature-card w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 sm:h-72 lg:h-80 rounded-xl flex items-center justify-center cursor-pointer transition-all hover:scale-105 flex-shrink-0 overflow-hidden">
-                <img src="{{ asset('card_gallery.png') }}" alt="Feature 5" class="w-full h-full object-contain">
+                <div class="feature-card flex-shrink-0 w-full xs:w-80 sm:w-[calc(50%-8px)] md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(33.333%-21px)] 2xl:w-[calc(25%-18px)] h-60 sm:h-72 md:h-80 lg:h-80 xl:h-84 rounded-lg sm:rounded-xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-white/15 overflow-hidden group">
+                    <div class="w-3/4 h-3/4 sm:w-full sm:h-full p-2 sm:p-3 md:p-4">
+                        <img src="{{ asset('card_profil.png') }}" alt="Profile Feature" 
+                            class="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+
+                <div class="feature-card flex-shrink-0 w-full xs:w-80 sm:w-[calc(50%-8px)] md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(33.333%-21px)] 2xl:w-[calc(25%-18px)] h-60 sm:h-72 md:h-80 lg:h-80 xl:h-84 rounded-lg sm:rounded-xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-white/15 overflow-hidden group">
+                    <div class="w-3/4 h-3/4 sm:w-full sm:h-full p-2 sm:p-3 md:p-4">
+                        <img src="{{ asset('card_submit.png') }}" alt="Submit Feature" 
+                            class="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
+
+                <div class="feature-card flex-shrink-0 w-full xs:w-80 sm:w-[calc(50%-8px)] md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(33.333%-21px)] 2xl:w-[calc(25%-18px)] h-60 sm:h-72 md:h-80 lg:h-80 xl:h-84 rounded-lg sm:rounded-xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-white/15 overflow-hidden group">
+                    <div class="w-3/4 h-3/4 sm:w-full sm:h-full p-2 sm:p-3 md:p-4">
+                        <img src="{{ asset('cd_karya.png') }}" alt="Portfolio Feature" 
+                            class="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </section>
