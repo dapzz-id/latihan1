@@ -1,10 +1,9 @@
-<section class="exhibition-section py-10 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
-  <div class="relative flex flex-col items-center mb-8 sm:mb-10 lg:mb-12">
-    <!-- Star Icon -->
-    <div class="absolute left-2 sm:left-0 top-1/2 -translate-y-1/2">
-      <img src="{{ asset('Star.png') }}" alt="Star" 
-        class="w-10 h-10 sm:w-16 sm:h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 object-contain">
-    </div>
+<section id="gallery" class="exhibition-section py-10 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+    <div class="relative flex flex-col items-center mb-8 sm:mb-10 lg:mb-12">
+        <!-- Star Icon - Responsive sizes -->
+        <div class="absolute left-2 sm:left-0 top-1/2 -translate-y-1/2">
+            <img src="{{ asset('Star.png') }}" alt="Star" class="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 object-contain">
+        </div>
 
     <!-- Title -->
     <div class="text-center">

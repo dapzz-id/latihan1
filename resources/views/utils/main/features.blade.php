@@ -1,6 +1,6 @@
 <section id="features" class="features-section py-16 sm:py-20 mt-12 px-4 sm:px-8 lg:px-16">
     <!-- Header -->
-    <div class="relative flex flex-col lg:flex-row justify-start items-center mb-12 lg:h-40 text-center lg:text-left gap-8 lg:gap-12">
+    <div class="relative flex flex-col lg:flex-row justify-start items-center mb-12 lg:h-40 text-center lg:text-left gap-4 lg:gap-12">
         <!-- Jupiter Image -->
         <div class="relative flex-shrink-0">
             <img src="{{ asset('3D Planet.png') }}" alt="Globe"

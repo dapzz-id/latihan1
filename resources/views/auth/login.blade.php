@@ -29,8 +29,6 @@
                     👁
                 </button>
             </div>
-            <a href="#" class="block text-right text-xs sm:text-sm text-white/80 hover:underline mt-1">Forgot
-                Password?</a>
         </div>
 
         <!-- Error Message -->
@@ -38,7 +36,7 @@
 
         <!-- Login Button -->
         <button type="submit"
-            class="w-full py-2 sm:py-3 rounded-xl bg-gradient-to-r from-blue-400 to-indigo-500 
+            class="w-full py-2 sm:py-3 mt-5 rounded-xl bg-gradient-to-r from-blue-400 to-indigo-500 
              hover:from-blue-500 hover:to-indigo-600 transition shadow font-semibold text-sm sm:text-base">
             LOG IN
         </button>
@@ -70,14 +68,14 @@
 
         <!-- Account List -->
         <div class="divide-y">
-            <button class="flex items-center gap-3 px-4 py-3 w-full hover:bg-gray-100">
+            <button class="flex items-center gap-3 px-4 py-3 w-full hover:bg-gray-100" onclick="window.location.href = '/dashboard'">
                 <img src="https://i.pravatar.cc/40?img=4" class="w-8 h-8 rounded-full">
                 <div class="text-left">
                     <p class="text-sm font-medium text-gray-800">atayanafisrizqulah@gmail.com</p>
                     <p class="text-xs text-gray-500">Ataya Nafis Rizqulah</p>
                 </div>
             </button>
-            <button class="flex items-center gap-3 px-4 py-3 w-full hover:bg-gray-100">
+            <button class="flex items-center gap-3 px-4 py-3 w-full hover:bg-gray-100" onclick="window.location.href = '/dashboard'">
                 <img src="https://i.pravatar.cc/40?img=7" class="w-8 h-8 rounded-full">
                 <div class="text-left">
                     <p class="text-sm font-medium text-gray-800">kadaviradityaa@gmail.com</p>
@@ -94,7 +92,7 @@
         </div>
 
         <!-- Cancel -->
-        <div class="px-4 py-2 border-t text-right">
+        <div class="px-4 py-2 border-t text-right mb-2 mr-2">
             <button id="closeModal" class="text-sm text-gray-600 hover:text-gray-900">Cancel</button>
         </div>
     </div>
@@ -133,7 +131,6 @@
         // Dummy account check
         if (email === "user@example.com" && password === "password") {
             errorMsg.classList.add("hidden");
-            alert("Login successful! 🎉");
             window.location.href = "/dashboard";
         } else {
             errorMsg.classList.remove("hidden");

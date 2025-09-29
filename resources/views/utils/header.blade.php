@@ -21,7 +21,7 @@
   </nav>
 
   <!-- Button -->
-  <button class="hidden sm:block bg-white/20 px-5 py-2 rounded-full border border-white text-white cursor-pointer transition hover:bg-white hover:text-purple-700">
+  <button class="hidden sm:block bg-white/20 px-5 py-2 rounded-full border border-white text-white cursor-pointer transition hover:bg-white hover:text-purple-700" onclick="window.location.href='/login'">
     Spark In
   </button>
 </header>

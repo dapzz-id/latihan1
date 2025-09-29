@@ -6,29 +6,29 @@
     </div>
 
     <div class="relative w-full overflow-hidden">
-        <div class="flex gap-5 justify-center animate-runText whitespace-nowrap">
+        <div class="flex gap-3 sm:gap-4 md:gap-5 justify-center animate-runText whitespace-nowrap">
             <button
-                class="px-8 py-3 text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
+                class="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-xs sm:text-sm md:text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
                 Challenges
             </button>
             <button
-                class="px-8 py-3 text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
+                class="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-xs sm:text-sm md:text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
                 Productivity
             </button>
             <button
-                class="px-8 py-3 text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
+                class="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-xs sm:text-sm md:text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
                 Development
             </button>
             <button
-                class="px-8 py-3 text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
+                class="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-xs sm:text-sm md:text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
                 Graphic
             </button>
             <button
-                class="px-8 py-3 text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
+                class="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-xs sm:text-sm md:text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
                 Skill Building
             </button>
             <button
-                class="px-8 py-3 text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
+                class="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-xs sm:text-sm md:text-base border border-white/20 bg-white/5 backdrop-blur-xl text-white rounded-full shadow-md hover:bg-white/10 transition">
                 Team
             </button>
         </div>

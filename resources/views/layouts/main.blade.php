@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern Landing Page</title>
+    <title>Infinia | Aetherion</title>
+    <link rel="icon" href="{{ asset('ikonn.png') }}" type="image/png">
     @vite('resources/css/app.css')
 
     <style>

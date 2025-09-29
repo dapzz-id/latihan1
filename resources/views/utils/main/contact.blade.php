@@ -1,4 +1,4 @@
-<section class="contact-section py-16 px-8 text-center max-w-2xl mx-auto my-10">
+<section id="contact" class="contact-section py-16 px-8 text-center max-w-2xl mx-auto my-10">
     <h2 class="text-3xl mb-8 font-semibold">It's easy anything on your mind. Drop it here 👇</h2>
     <form class="max-w-lg mx-auto flex flex-col gap-4">
         <input type="text" placeholder="Name" required

@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Infinia | Aetherion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="{{ asset('ikonn.png') }}" type="image/png">
     @vite('resources/css/app.css')
 
@@ -99,12 +100,15 @@
     </style>
 </head>
 
-<body class="min-h-screen text-white font-sans overflow-hidden">
+<body class="min-h-screen text-white font-sans overflow-x-hidden">
 
     <!-- Main Content -->
-    <main class="mt-6 px-12 flex justify-center items-center h-screen">
-        @include('auth.login')
+    <main class="mt-6 px-12">
+        <!-- Add Karya -->
+        @include('auth.utils.karya.add')
     </main>
 
+    <!-- Footer -->
+    @include('auth.utils.footer')
 </body>
 </html>

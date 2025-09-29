@@ -5,30 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Infinia | Aetherion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="{{ asset('ikonn.png') }}" type="image/png">
     @vite('resources/css/app.css')
 
     <style>
         body {
-            background: linear-gradient(135deg, #1D4ED8 0%, #488EF8 50%, #255DE0 100%);
+            background: white;
             position: relative;
         }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image:
-                linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-            background-size: 20px 20px;
-            pointer-events: none;
-            z-index: 1;
-        }
-
         main {
             position: relative;
             z-index: 2;
@@ -99,12 +84,20 @@
     </style>
 </head>
 
-<body class="min-h-screen text-white font-sans overflow-hidden">
+<body class="min-h-screen text-white font-sans overflow-x-hidden">
+
+    <header class="top-0 lg:px-10 px-8 text-sm py-6 lg:text-lg flex flex-row items-center text-black cursor-pointer" onclick="window.history.back()">
+        <i class="fas fa-arrow-left "></i>
+        <span class="ml-3 mb-0.5">Back</span>
+    </header>
 
     <!-- Main Content -->
-    <main class="mt-6 px-12 flex justify-center items-center h-screen">
-        @include('auth.login')
+    <main class="px-12">
+        <!-- Add Karya -->
+        @include('auth.utils.karya.detail')
     </main>
 
+    <!-- Footer -->
+    @include('auth.utils.footer')
 </body>
 </html>
