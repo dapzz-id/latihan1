@@ -1,6 +1,6 @@
 <section id="leaderboard" 
     class="relative bg-cover bg-center bg-no-repeat inset-0 py-12 sm:py-16 mt-12 max-w-6xl mx-auto" 
-    style="background-image: url('{{ asset('bg_features.png') }}');"
+    style="background-image: url('{{ asset('bg_features.webp') }}');"
 >
     <div class="container mx-auto px-4 sm:px-6">
         <!-- Header -->

@@ -8,7 +8,7 @@
   <div class="w-full sm:w-11/12 md:w-4/5 lg:w-3/5 max-w-xl mx-auto rounded-xl overflow-hidden">
     <a class="block">
       <img 
-        src="{{ asset('about.png') }}" 
+        src="{{ asset('about.webp') }}" 
         alt="About Image" 
         class="w-full h-auto object-cover"
       >

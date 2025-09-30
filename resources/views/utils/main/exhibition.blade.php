@@ -2,7 +2,7 @@
     <div class="relative flex flex-col items-center mb-8 sm:mb-10 lg:mb-12">
         <!-- Star Icon - Responsive sizes -->
         <div class="absolute left-2 sm:left-0 top-1/2 -translate-y-1/2">
-            <img src="{{ asset('Star.png') }}" alt="Star" class="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 object-contain">
+            <img src="{{ asset('Star.webp') }}" alt="Star" class="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 object-contain">
         </div>
 
     <!-- Title -->
@@ -15,19 +15,19 @@
   <!-- Desktop 3D Carousel -->
   <div class="flex justify-center items-center perspective-2000 mx-auto h-64 sm:h-80 md:h-96 relative transform-style-3d overflow-hidden">
   <div class="exhibition-card absolute w-28 h-40 sm:w-40 sm:h-56 md:w-56 md:h-72 lg:w-72 lg:h-80 rounded-xl overflow-hidden shadow-lg cursor-pointer card-1">
-    <img src="{{ asset('exhibition1.png') }}" alt="Artwork 1" class="w-full h-full object-cover">
+    <img src="{{ asset('exhibition1.webp') }}" alt="Artwork 1" class="w-full h-full object-cover">
   </div>
   <div class="exhibition-card absolute w-28 h-40 sm:w-40 sm:h-56 md:w-56 md:h-72 lg:w-72 lg:h-80 rounded-xl overflow-hidden shadow-lg cursor-pointer card-2">
-    <img src="{{ asset('exhibition2.png') }}" alt="Artwork 2" class="w-full h-full object-cover">
+    <img src="{{ asset('exhibition2.webp') }}" alt="Artwork 2" class="w-full h-full object-cover">
   </div>
   <div class="exhibition-card absolute w-28 h-40 sm:w-40 sm:h-56 md:w-56 md:h-72 lg:w-72 lg:h-80 rounded-xl overflow-hidden shadow-lg cursor-pointer card-3">
-    <img src="{{ asset('exhibition3.png') }}" alt="Artwork 3" class="w-full h-full object-cover">
+    <img src="{{ asset('exhibition3.webp') }}" alt="Artwork 3" class="w-full h-full object-cover">
   </div>
   <div class="exhibition-card absolute w-28 h-40 sm:w-40 sm:h-56 md:w-56 md:h-72 lg:w-72 lg:h-80 rounded-xl overflow-hidden shadow-lg cursor-pointer card-4">
-    <img src="{{ asset('exhibition4.png') }}" alt="Artwork 4" class="w-full h-full object-cover">
+    <img src="{{ asset('exhibition4.webp') }}" alt="Artwork 4" class="w-full h-full object-cover">
   </div>
   <div class="exhibition-card absolute w-28 h-40 sm:w-40 sm:h-56 md:w-56 md:h-72 lg:w-72 lg:h-80 rounded-xl overflow-hidden shadow-lg cursor-pointer card-5">
-    <img src="{{ asset('exhibition5.png') }}" alt="Artwork 5" class="w-full h-full object-cover">
+    <img src="{{ asset('exhibition5.webp') }}" alt="Artwork 5" class="w-full h-full object-cover">
   </div>
 </div>
 
