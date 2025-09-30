@@ -38,7 +38,7 @@
 
     <!-- Main Content -->
     <main class="mt-6 px-12 flex justify-center items-center h-screen">
-        @include('auth.login')
+        @include('auth.register')
     </main>
 
 </body>
